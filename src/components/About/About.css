@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,300&display=swap');
+
+.Card {
+    margin-top: 6%;
+    margin-left: 6%;
+    width: 70%;
+    height: 450px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 1px black;
+    
+}
+.upper-container {
+    height: 100px;
+    background: linear-gradient(to left, #1ABC9C, #2980B9);
+}
+.image-container img{
+    background: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 5px;
+    transform: translate(95px,45px);
+}
+img {
+    border: 2px;
+}
+.lower-container {
+    margin-top: 60px;
+    height: 300px;
+    text-align: center;
+    font-family: 'Titillium Web',sans-serif;
+}
+.lower-container h3,h4,p {
+    margin: 0;
+    padding: 0;
+}
+.lower-container h3 {
+    color: #000;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.lower-container h4 {
+    color: #7D3C98;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.lower-container p {
+    margin: 1rem;
+    font-weight: 300;
+    color: #000;
+    font-size: 0.9rem;
+    text-align: justify;
+}
+.btn{
+    margin-top: 10%;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    width: 200px;
+    background-color: #00999c;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover {
+    transition: 1s;
+    background-color: #ecf5f5;
+    color: #00999c;
+}
